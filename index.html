@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem em Tela Cheia</title>
+    <style>
+        /* Remove margens e preenchimento da página */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Define o body para ocupar a tela inteira e exibir a imagem */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            background-image: url('2.png'); /* Caminho da imagem */
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita repetição da imagem */
+            background-attachment: fixed; /* Mantém a imagem fixa em telas grandes */
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>
